@@ -1,0 +1,100 @@
+/* stylelint-disable shorthand-property-no-redundant-values */
+
+/* stylelint-disable no-descending-specificity */
+
+/* stylelint-disable order/properties-alphabetical-order */
+
+/* stylelint-disable rule-empty-line-before */
+
+/* stylelint-disable indentation */
+
+.container-payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 35px 0;
+}
+
+.payments {
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 10px;
+}
+
+.card {
+  border: none;
+  display: flex;
+}
+
+.payments .fa-solid {
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  font-size: 1.5em;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.payments .pay {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.payments .primary {
+  font-weight: 700;
+}
+
+.payments .second {
+  font-size: 0.8em;
+  color: #2176DE;
+}
+
+.payments .second:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1855a0;
+}
+
+.payments .fa-solid:hover {
+  cursor: pointer;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+}
+
+.text-category {
+  font-size: 1em;
+  font-weight: 400;
+  margin-left: 5.8%;
+  line-height: 5px;
+  margin-bottom: 10px;
+}
+
+@media ( max-width : 1440px ) { /* Tela: laptop: 1440 x 900 */
+
+  .payments {
+    padding: 15px;
+    line-height: 10px;
+  }
+
+  .payments .fa-solid {
+    font-size: 1.5em;
+    padding: 2px;
+  }
+
+  .payments .primary {
+    font-size: 0.75em;
+  }
+
+  .payments .second {
+    font-size: 0.65em;
+  }
+
+  .container-payments {
+    margin: 10px 0 20px 0;
+  }
+}

@@ -1,0 +1,50 @@
+/* stylelint-disable comment-whitespace-inside */
+
+/* stylelint-disable order/properties-alphabetical-order */
+
+/* stylelint-disable rule-empty-line-before */
+
+footer {
+  height: 10.4vh;
+  background-color: rgb(64, 125, 108);
+  box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+footer .logo_trybe {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+}
+footer .logo_trybe img { /*Tamanho da Imagem*/
+  max-width: 110px;
+  max-height: 110px;
+  margin-top: 5px;
+}
+footer .logo_trybe .desenvolvedor { /*Texto Desenvolvedor*/
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 5px;
+  color: white;
+  margin-top: -5px;
+}
+
+@media ( max-width : 1440px ) { /* Tela: laptop: 1440 x 900 */
+  footer {
+    margin-top: 31px;
+    padding: 0;
+  }
+  footer .logo_trybe {
+    padding: 2px;
+  }
+}
+
+@media ( max-width : 1680px ) {
+
+  footer {
+    height: 8.6vh;
+  }
+}

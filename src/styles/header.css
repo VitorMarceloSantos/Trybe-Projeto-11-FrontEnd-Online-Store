@@ -1,0 +1,152 @@
+/* stylelint-disable order/properties-alphabetical-order */
+header {
+  background-color: #7db290;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.container-header {
+  align-items: center;
+  display: flex;
+  width: 97%;
+}
+
+.logoTrybe {
+  height: auto;
+  margin: 10px;
+  max-height: 120px;
+  max-width: 130px;
+  width: auto;
+}
+
+/* Search Bar */
+.container-searchBar {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  height: 3.3vh;
+  margin: auto;
+  width: 28.6vw;
+}
+
+.container-searchBar input {
+  border: none;
+  height: 3vh;
+  margin-left: 3px;
+  width: 26.5vw;
+}
+
+.container-searchBar button {
+  background-color: white;
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgb(64, 125, 108);
+  font-size: 1.1em;
+  margin: auto;
+  padding-left: 9px;
+}
+
+.container-searchBar button:hover {
+  color: black;
+}
+
+/* Cart */
+.container-cart-icon {
+  display: flex;
+}
+
+.container-item-cart-button {
+  margin-right: 20px;
+}
+
+.icon-cart {
+  color: rgb(51, 99, 85);
+  font-size: 2.3em;
+  position: relative;
+}
+
+.icon-cart:hover {
+  color: rgb(31, 61, 53);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.border-number-items {
+  border-radius: 50%;
+  display: flex;
+  height: 1.3em;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  right: 2.5vw;
+  top: 5.5vh;
+  width: 1.3em;
+  background-color: red;
+}
+
+.number-items-cart {
+  color: white;
+  font-size: 0.9em;
+}
+
+@media ( max-width : 1440px ) { /* Tela: laptop: 1440 x 900 */
+
+  .container-searchBar {
+    position: relative;
+  }
+
+  .container-searchBar input {
+    border: none;
+    height: 2.8vh;
+    margin-left: 3px;
+    width: 25.5vw;
+    position: absolute;
+  }
+
+  .container-searchBar button {
+    font-size: 0.9em;
+    height: 2.8vh;
+    margin: auto;
+    margin-left: 2px;
+    position: absolute;
+    left: 362px;
+  }
+
+  .logoTrybe {
+    margin: 5px;
+    max-height: 100px;
+    max-width: 110px;
+  }
+
+  .icon-cart {
+    font-size: 1.7em;
+  }
+
+  .border-number-items {
+    height: 1em;
+    right: 3vw;
+    top: 4.9vh;
+    width: 1em;
+  }
+
+  .number-items-cart {
+    font-size: 0.7em;
+  }
+}
+
+@media ( max-width : 1680px ) {
+
+  .container-searchBar input {
+    height: 3vh;
+    margin-left: 3px;
+    width: 25.5vw;
+  }
+
+  .container-searchBar button {
+    font-size: 0.9em;
+    height: 3vh;
+    margin-left: 2px;
+  }
+}

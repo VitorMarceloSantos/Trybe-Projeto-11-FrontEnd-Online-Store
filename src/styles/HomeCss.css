@@ -1,0 +1,4 @@
+.container-global-cards ul {
+  display: flex;
+  flex-wrap: wrap;
+}

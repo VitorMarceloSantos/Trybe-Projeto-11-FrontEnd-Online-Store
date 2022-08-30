@@ -1,0 +1,65 @@
+/* stylelint-disable order/properties-alphabetical-order */
+.container-card {
+  margin: 10px;
+  width: 15rem;
+  height: 25rem;
+}
+
+.card-body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.titleCard {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.imageCard {
+  width: 110px;
+}
+
+.priceTotal {
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.priceDivision {
+  color: rgb(36, 76, 102);
+  font-size: 0.8em;
+}
+
+.container-frete {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container-frete p {
+  margin-left: 5px;
+}
+
+.container-buttons {
+  align-items: flex-end;
+  background-color: white;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+}
+
+.container-buttons button {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.shipping {
+  font-size: 0.7em;
+}

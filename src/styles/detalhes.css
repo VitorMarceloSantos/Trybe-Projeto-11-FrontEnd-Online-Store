@@ -1,0 +1,180 @@
+/* stylelint-disable selector-max-specificity */
+
+/* stylelint-disable font-weight-notation */
+
+/* stylelint-disable order/properties-alphabetical-order */
+.container-detalhes {
+  display: flex;
+  justify-content: center;
+}
+
+.container-details {
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 50vw;
+  text-align: center;
+}
+
+#product-detail-name {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.container-details section img {
+  width: 200px;
+}
+
+.detalhes-img {
+  display: flex;
+  justify-content: center;
+}
+
+.details-main-section p {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.review-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.review-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-error-msg {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: solid 2px gray;
+  border-radius: 5px;
+}
+
+.review-email-rating {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review-evaluation {
+  border-radius: 5px;
+}
+
+.review-evaluation p {
+  padding: 10px;
+}
+
+.form-review {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rating-radio-buttons label {
+  margin-right: 15px;
+}
+
+.rating-radio-buttons label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rating-radio-buttons input {
+  margin-right: 5px;
+}
+
+.input-email {
+  margin-left: 5px;
+}
+
+.input-avaliar {
+  width: 15vw;
+  margin: 15px auto;
+  border-radius: 5px;
+  background-color: rgb(64, 125, 108);
+  color: white;
+  font-weight: 700;
+  padding: 6px;
+  font-size: 0.9em;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.input-avaliar:hover {
+  color: rgb(125, 178, 144);
+  background-color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+
+.container-detalhes .fa-cart-plus {
+  font-size: 3em;
+}
+
+.container-detalhes .fa-cart-plus:hover {
+  color: rgb(64, 125, 108);
+}
+
+.add-item-cart-button {
+  background-color: white;
+}
+
+.container-buttons-input {
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  right: 12vw;
+  top: 5vh;
+}
+
+.button-home {
+  border: none;
+  background-color: white;
+}
+
+.button-home .fa-house {
+  font-size: 2em;
+  color: rgb(64, 125, 108);
+}
+
+.button-home .fa-house:hover {
+  color: rgb(31, 61, 53);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media ( max-width : 1440px ) { /* Tela: laptop: 1440 x 900 */
+
+  .button-home .fa-house {
+    font-size: 1.5em;
+  }
+}
