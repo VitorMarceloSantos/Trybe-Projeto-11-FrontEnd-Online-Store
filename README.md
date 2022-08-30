@@ -39,7 +39,7 @@
 <img src="https://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-3.png" title="Projeto - 11" alt="J"/><br/>
 <img src="https://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-4.png" title="Projeto - 11" alt="J"/><br/>
 <img src="https://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-5.png" title="Projeto - 11" alt="J"/><br/>
-<img src="hhttps://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-7.png" title="Projeto - 11" alt="J"/><br/>
+<img src="https://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-7.png" title="Projeto - 11" alt="J"/><br/>
 <img src="https://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-8.png" title="Projeto - 11" alt="J"/><br/>
 <img src="https://raw.githubusercontent.com/VitorMarceloSantos/Trybe-Projeto-11-FrontEnd-Online-Store/main/projeto-6.png" title="Projeto - 11" alt="J"/><br/>
 
