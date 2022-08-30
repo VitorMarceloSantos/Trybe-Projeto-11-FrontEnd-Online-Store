@@ -7,7 +7,7 @@
 ##
 
 <div>
-  <h3>Link do GitHub Page:</h3> https://vitormarcelosantos.github.io/Trybe-Projeto-07-Shopping-Cart/
+  <h3>Link do GitHub Page:</h3> https://vitormarcelosantos.github.io/Trybe-Projeto-11-FrontEnd-Online-Store/
 </div>
 
 ##
